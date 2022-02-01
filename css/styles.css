@@ -61,7 +61,7 @@ p {
 }
 
 .title-image {
-  width: 300px;
+  width: 250px;
   transform: rotate(25deg);
   position: absolute;
   right: 24%;
@@ -72,7 +72,6 @@ p {
   padding: 7% 15%;
   background-color: #fff;
   position: relative;
-
 }
 
 .features-box {
@@ -129,13 +128,43 @@ p {
 .btn-pricing {
   width: 100%;
 }
+
+/* cta section */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* footer section */
+#footer {
+  background-color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.icon-socials {
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 10px;
+  color: #000;
+}
+
 @media (max-width: 1028px) {
   #title {
     text-align: center;
   }
+
   .title-image {
     position: static;
     transform: rotate(0deg);
   }
-
 }
